@@ -3,6 +3,8 @@ Bitmap files sometimes map pixel colors to those defined by a palette of limited
 
 ##Task
 Take a bunch of game bitmap assets, rotate the palette, and export the frames accordingly.
+![Rotation Groups](https://raw.githubusercontent.com/jkmartindale/dev-null/master/Palette%20Rotation/GroupList.png)
+![Rotation Animation](https://raw.githubusercontent.com/jkmartindale/dev-null/master/Palette%20Rotation/FullPaletteRotate.gif)
 
 ##New Skills
 - Editing binary data in PHP
@@ -14,4 +16,4 @@ Take a bunch of game bitmap assets, rotate the palette, and export the frames ac
 - The `rotated` directory must exist
 - There's absolutely no error correction
 
-Thanks to [@Rancore202](http://t.me/rancore202) on Telegram for the task
+Task and reference images supplied by [@Rancore202](http://t.me/rancore202) on Telegram.
