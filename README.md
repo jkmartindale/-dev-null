@@ -4,3 +4,4 @@ A digital graveyard for projects that are not of any interest as a whole. Code c
 Each project has a description of the task, learning outcomes (which give hints to what part of the code may be useful), and considerations in case you're drunk and somehow want to run the code.
 
 **Palette Rotation:** PHP: editing binary data, string replacement with arrays, and DirectoryIterator; BMP file format
+**Vine Likes Downloader:** PHP: vonsuming paginated REST data, HTTP GET requests without cURL, downloading binary data
