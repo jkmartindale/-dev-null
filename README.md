@@ -5,4 +5,4 @@ Each project has a description of the task, learning outcomes (which give hints 
 
 **Batch to Java:** Java: writing files, executing Windows commands<br>
 **Palette Rotation:** PHP: editing binary data, string replacement with arrays, and DirectoryIterator; BMP file format<br>
-**Vine Likes Downloader:** PHP: vonsuming paginated REST data, HTTP GET requests without cURL, downloading binary data
+**Vine Likes Downloader:** PHP: consuming paginated REST data, HTTP GET requests without cURL, downloading binary data
