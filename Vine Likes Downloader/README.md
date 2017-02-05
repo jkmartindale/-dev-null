@@ -11,5 +11,5 @@ Download [@resir014](https://resir014.github.io/)'s likes before Vine shuts down
 - Downloading binary data
 
 ##Code Considerations
-- The script is hardcoded to work with either [@resir014](https://resir014.github.io/)'s or my profile, and thus must be changed
+- The script is hardcoded to work with either [@resir014](https://resir014.github.io/)'s or my profile (I forgot who), and thus must be changed
 - Don't even try, as it appears Vine's API has shut down
