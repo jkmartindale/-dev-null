@@ -10,6 +10,7 @@ Take a bunch of game bitmap assets, rotate the palette, and export the frames ac
 - Editing binary data in PHP
 - PHP string replacement with arrays
 - PHP DirectoryIterator
+- BMP file format
 
 ##Code Considerations
 - Bitmap files must be placed in a `textures` directory
