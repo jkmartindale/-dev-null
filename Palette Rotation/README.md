@@ -6,7 +6,7 @@ Take a bunch of game bitmap assets, rotate the palette, and export the frames ac
 ![Rotation Groups](https://raw.githubusercontent.com/jkmartindale/dev-null/master/Palette%20Rotation/GroupList.png)
 ![Rotation Animation](https://raw.githubusercontent.com/jkmartindale/dev-null/master/Palette%20Rotation/FullPaletteRotate.gif)
 
-##New Skills
+##Learning Outcomes
 - Editing binary data in PHP
 - PHP string replacement with arrays
 - PHP DirectoryIterator
