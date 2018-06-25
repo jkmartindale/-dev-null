@@ -6,5 +6,5 @@ Each project has a description of the task, learning outcomes (which give hints 
 **#pyramid Downloader:** Python: BeautifulSoup, datetime library  
 **Batch to Java:** Java: writing files, executing Windows commands  
 **Palette Rotation:** PHP: editing binary data, string replacement with arrays, and DirectoryIterator; BMP file format  
-**Junk Drawer:** A catch-all for quick ideas that need further processing at some point in the future  
+**Junk Drawer:** A catch-all for brain barf that needs further processing at some point in the future  
 **Vine Likes Downloader:** PHP: consuming paginated REST data, HTTP GET requests without cURL, downloading binary data  
