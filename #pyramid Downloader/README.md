@@ -3,14 +3,15 @@
 #pyramid on Freenode uses BotBot.me for logging, which was cool until BotBot.me disabled log searching
 
 ## Task
-Download all the logs, with one file per day, preferably starting off from wherever downloads left off last time.
+Download all the logs, with one file per day, preferably starting off from wherever downloads left off last time. Run wget to grab logs of #zope and #zope3-dev as well.
 
 ## Learning Outcomes
 - BeautifulSoup basics
 - Python's `datetime` module
 - Python's `glob` module
 - Working with files in Python
+- Basic use of macOS Automator
 
 ## Code Considerations
-- Assumes that a `#pyramid` folder exists and might not work without one
--  I forgot to make this script work without already existing log files
+- Find some way to schedule `Download IRC Logs.workflow` (I've been using Calendar.app)
+- If you actually need to use this, I am so, so sorry
