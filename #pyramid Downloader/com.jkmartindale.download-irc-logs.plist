@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.jkmartindale.irc-log-downloader</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>-c</string>
+		<string>
+			export PATH=$PATH:/opt/local/bin;
+			date;
+			echo "Downloading #pyramid logs...";
+            bin/python \#pyramid.py;
+			echo "Downloading #zope3-dev logs...";
+            wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope3-dev https://zope3.pov.lt/irclogs/index.html;
+			echo "Downloading #zope logs...";
+            wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope https://zope3.pov.lt/irclogs-zope/index.html;
+        </string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>irc-downloader.log</string>
+	<key>StandardOutPath</key>
+	<string>irc-downloader.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/james.martindale/Projects/irc-logs/</string>
+</dict>
+</plist>

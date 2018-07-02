@@ -10,8 +10,8 @@ Download all the logs, with one file per day, preferably starting off from where
 - Python's `datetime` module
 - Python's `glob` module
 - Working with files in Python
-- Basic use of macOS Automator
+- Basic use of launchd
 
 ## Code Considerations
-- Find some way to schedule `Download IRC Logs.workflow` (I've been using Calendar.app)
+- Shove `com.jkmartindale.download-irc-logs.plist` into `~/Library/LaunchAgents/`
 - If you actually need to use this, I am so, so sorry
