@@ -20,6 +20,9 @@
             wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope3-dev https://zope3.pov.lt/irclogs/index.html;
 			echo "Downloading #zope logs...";
             wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope https://zope3.pov.lt/irclogs-zope/index.html;
+			echo "Cleaning up..."
+			rm \#*/*.tmp
+			echo "Done."
         </string>
 	</array>
 	<key>StandardErrorPath</key>
