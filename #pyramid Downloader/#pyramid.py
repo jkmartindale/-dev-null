@@ -49,3 +49,4 @@ while target_day < today:
         logfile.write(log.prettify())
     
     target_day += day
+    
