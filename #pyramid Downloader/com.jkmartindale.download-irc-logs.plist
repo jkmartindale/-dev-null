@@ -17,9 +17,9 @@
 			echo "Downloading #pyramid logs...";
             bin/python \#pyramid.py;
 			echo "Downloading #zope3-dev logs...";
-            wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope3-dev https://zope3.pov.lt/irclogs/index.html;
+            wget -nv -nH -Nrl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope3-dev https://zope3.pov.lt/irclogs/index.html;
 			echo "Downloading #zope logs...";
-            wget -nc -nv -nH -rl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope https://zope3.pov.lt/irclogs-zope/index.html;
+            wget -nv -nH -Nrl 1 -R index.html,latest.log.html,robots.txt --cut-dirs=1 --directory-prefix=\#zope https://zope3.pov.lt/irclogs-zope/index.html;
 			echo "Cleaning up..."
 			rm \#*/*.tmp
 			echo "Done."
