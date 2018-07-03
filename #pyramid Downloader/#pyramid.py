@@ -45,7 +45,7 @@ while target_day < today:
     log.head.insert(0, log.new_tag("base", href="https://botbot.me"))
 
     # Write to file
-    with open('#pyramid/%s.html' % target_day, 'w+') as logfile:
+    with open('#pyramid/%s.html' % target_day, 'w+', encoding='utf8') as logfile:
         logfile.write(log.prettify())
     
     target_day += day
