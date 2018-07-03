@@ -11,7 +11,7 @@
 		<string>/bin/bash</string>
 		<string>-c</string>
 		<string>
-			rm irc-downlaoder.log;
+			rm irc-downloader.log;
 			export PATH=$PATH:/opt/local/bin;
 			date;
 			echo "Downloading #pyramid logs...";
