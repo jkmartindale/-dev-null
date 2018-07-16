@@ -3,7 +3,7 @@ A digital graveyard for projects that are not of any interest as a whole. Code c
 
 Each project has a description of the task, learning outcomes (which give hints to what part of the code may be useful), and considerations in case you're drunk and somehow want to run the code.
 
-**#pyramid Downloader:** Python: BeautifulSoup, datetime library; launchd; wget  
-**Batch to Java:** Java: writing files, executing Windows commands  
-**Palette Rotation:** PHP: editing binary data, string replacement with arrays, and DirectoryIterator; BMP file format  
-**Vine Likes Downloader:** PHP: consuming paginated REST data, HTTP GET requests without cURL, downloading binary data  
+**#pyramid-downloader:** Python: BeautifulSoup, datetime library; launchd; wget  
+**batch2java:** Java: writing files, executing Windows commands  
+**palette-rotation:** PHP: editing binary data, string replacement with arrays, and DirectoryIterator; BMP file format  
+**vine-likes-downloader:** PHP: consuming paginated REST data, HTTP GET requests without cURL, downloading binary data  
